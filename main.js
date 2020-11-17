@@ -15,7 +15,7 @@ return (a)}
 
 function build(k){
 bd=new BigUint64Array(65536);
-var pP=((2n**64n)-83n),m=2**32,tp,i=0,x=bd.length,ac=0n;
+var pP=((2n**64n)-83n),m=2**16,tp,i=0,x=bd.length,ac=0n;
 for (i in bd){
 	bd[i]=ac;
 	tp=BigInt(k[0]*(k[4]%m))%pP
